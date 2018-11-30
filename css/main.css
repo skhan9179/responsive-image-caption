@@ -16,3 +16,53 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body,
+figure,
+figure h2,
+figure p {
+  margin: 0;
+}
+
+figure {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+figure img {
+
+  background-color: pink;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+figcaption {
+  background-color: #e2e2e2;
+  padding: 1em;
+}
+
+figure h2 {
+  font-family: "Denk One", sans-serif;
+  font-size: 1.5rem;
+  margin: 0 0 1.3rem;
+}
+
+figure p {
+  font-family: Georgia;
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
+}
